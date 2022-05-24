@@ -15,7 +15,7 @@ export default function Hero() {
       <HeroVideo src="./assets/hero.mp4" autoPlay muted />
 
       <Container>
-        <MainHeading> Your datas are secure with us</MainHeading>
+        <MainHeading> Your data are secure with us</MainHeading>
 
         <HeroText>
           We provide the best security systems for clients all over the world
