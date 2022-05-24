@@ -53,9 +53,8 @@ const Navbar = () => {
       <Nav>
         <NavbarContainer>
           <NavLogo to='/'>
-            {/* <NavIcon src="./assets/logo.png" alt="logo">
+            <NavIcon src="./assets/logo.png" alt="logo" />
               Delta
-            </NavIcon> */}
           </NavLogo>
 
           <MobileIcon onClick={handleClick}>{show ? <FaTimes /> : <CgMenuRight />} </MobileIcon>
