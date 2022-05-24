@@ -2,9 +2,9 @@ export const heroOne = {
 	reverse: true,
 	inverse: true,
 	topLine: {
-		text: 'Founded in 2012',
+		text: 'Founded in 2011',
 	},
-	headline: "We've been in business for 9 years",
+	headline: "We've been in business for 11 years",
 	description: 'We have designed and implemented the best cloud security solutions',
 	buttonLabel: 'Find More',
 	imgStart: 'start',
@@ -36,7 +36,7 @@ export const heroThree = {
 	},
 	headline: 'Why us? ',
 	description:
-		'Our 9 year experience have allowed us to use the most innovative technologies and methodologies',
+		'Our 11 year experience have allowed us to use the most innovative technologies and methodologies',
 	buttonLabel: 'View Project',
 
 	linkTo: '/download',
