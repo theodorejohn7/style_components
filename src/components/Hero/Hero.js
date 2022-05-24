@@ -12,10 +12,10 @@ import {
 export default function Hero() {
   return (
     <HeroSection>
-      <HeroVideo src="./assets/hero.mp4" />
+      <HeroVideo src="./assets/hero.mp4" autoPlay muted />
 
       <Container>
-        <MainHeading> Your data is secure with us</MainHeading>
+        <MainHeading> Your datas are secure with us</MainHeading>
 
         <HeroText>
           We provide the best security systems for clients all over the world
@@ -29,4 +29,4 @@ export default function Hero() {
       </Container>
     </HeroSection>
   );
-}
+};
