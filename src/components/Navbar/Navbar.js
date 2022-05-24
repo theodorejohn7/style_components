@@ -11,9 +11,11 @@ import {
   NavMenu,
   NavLinks,
   NavItem,
-} from "./NavbarStyles.js";
+} from "./Navbar.Styles";
 
-import { useLocation, useHistory } from "react-router-dom";
+import { useState } from "react";
+
+import { useLocation, useNavigate } from "react-router-dom";
 
 import data from "../../data/NavbarData";
 
@@ -21,11 +23,11 @@ const Navbar = () => {
 
     const [show, setShow] = useState(false);
 
-    let history = useHistory();
+    let history = useNavigate();
     let location = useLocation();
 
 
-    const handleClick()=>{
+    const handleClick=()=>{
         setShow(!show);
     }
 
@@ -51,9 +53,9 @@ const Navbar = () => {
       <Nav>
         <NavbarContainer>
           <NavLogo to='/'>
-            <NavIcon src="./assets/logo.png" alt="logo">
+            {/* <NavIcon src="./assets/logo.png" alt="logo">
               Delta
-            </NavIcon>
+            </NavIcon> */}
           </NavLogo>
 
           <MobileIcon onClick={handleClick}>{show ? <FaTimes /> : <CgMenuRight />} </MobileIcon>

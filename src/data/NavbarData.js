@@ -14,3 +14,6 @@ export const data = [
     text: "Contact",
   },
 ];
+
+
+export default data;

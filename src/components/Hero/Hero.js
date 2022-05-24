@@ -24,7 +24,10 @@ export default function Hero() {
           <Link to="signup">
             <Button>Get Started</Button>
           </Link>
-          <HeroButton>Find More</HeroButton>
+          {/* <HeroButton>Find More</HeroButton> */}
+
+          <Button>Find More</Button>
+
         </ButtonWrapper>
       </Container>
     </HeroSection>
