@@ -6,7 +6,7 @@ import {
   HeroSection,
   HeroText,
   ButtonWrapper,
-  HeroButton,
+ 
 } from "./HeroStyles";
 
 export default function Hero() {
@@ -32,4 +32,4 @@ export default function Hero() {
       </Container>
     </HeroSection>
   );
-};
+}

@@ -1,5 +1,5 @@
-import React from "react";
-import { FaRProject, FaTimes } from "react-icons/fa";
+import React , { useState } from "react";
+ 
 import { CgMenuRight } from "react-icons/cg";
 import { IconContext } from "react-icons";
 import {
@@ -12,8 +12,7 @@ import {
   NavLinks,
   NavItem,
 } from "./Navbar.Styles";
-
-import { useState } from "react";
+ 
 
 import { useLocation, useNavigate } from "react-router-dom";
 

@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Section } from "../../globalStyles";
 import {
   FeatureText,
-  FeatureTitle,
+ 
   FeatureWrapper,
   FeatureColumn,
   FeatureImageWrapper,
